@@ -1,0 +1,182 @@
+*   Trying ::1...
+* TCP_NODELAY set
+* Connected to localhost (::1) port 8098 (#0)
+> PUT /buckets/s16894/keys/audi?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 61
+>
+* upload completely sent off: 61 out of 61 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvW0ogQolyeawM65Zo3+HLAgA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvW0ogQolyeawM65Zo3+HLAgA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16894>; rel="up"
+Link: </buckets/s16894>; rel="up"
+< Last-Modified: Sat, 25 Jun 2022 15:24:30 GMT
+Last-Modified: Sat, 25 Jun 2022 15:24:30 GMT
+< ETag: "5RxPx30T6Tx9IKTGXKXUiV"
+ETag: "5RxPx30T6Tx9IKTGXKXUiV"
+< Date: Sat, 25 Jun 2022 15:24:30 GMT
+Date: Sat, 25 Jun 2022 15:24:30 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 61
+Content-Length: 61
+
+<
+'{brand:Audi,version:RS3,horsePower:156,productionYear:2008}'* Connection #0 to host localhost left intact
+
+===============================================================================================
+
+*   Trying ::1...
+* TCP_NODELAY set
+* Connected to localhost (::1) port 8098 (#0)
+> PUT /buckets/s16894/keys/bmw?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 59
+>
+* upload completely sent off: 59 out of 59 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvz+gA2UwZTInMeawMC5dq3+HLAgA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvz+gA2UwZTInMeawMC5dq3+HLAgA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16894>; rel="up"
+Link: </buckets/s16894>; rel="up"
+< Last-Modified: Sat, 25 Jun 2022 15:28:33 GMT
+Last-Modified: Sat, 25 Jun 2022 15:28:33 GMT
+< ETag: "4dLSktP7NeE5Ke6iKekZNs"
+ETag: "4dLSktP7NeE5Ke6iKekZNs"
+< Date: Sat, 25 Jun 2022 15:28:32 GMT
+Date: Sat, 25 Jun 2022 15:28:32 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 59
+Content-Length: 59
+
+<
+'{brand:BMW,version:M4,horsePower:120,productionYear:2015}'* Connection #0 to host localhost left intact
+
+==============================================================================================================
+
+*   Trying ::1...
+* TCP_NODELAY set
+* Connected to localhost (::1) port 8098 (#0)
+> PUT /buckets/s16894/keys/volkswagen?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 70
+>
+* upload completely sent off: 70 out of 70 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvck9DhBIZ81gZQpdp3+HLAgA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvck9DhBIZ81gZQpdp3+HLAgA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16894>; rel="up"
+Link: </buckets/s16894>; rel="up"
+< Last-Modified: Sat, 25 Jun 2022 15:31:33 GMT
+Last-Modified: Sat, 25 Jun 2022 15:31:33 GMT
+< ETag: "65kqBLj6h2nnUyhCcV1moO"
+ETag: "65kqBLj6h2nnUyhCcV1moO"
+< Date: Sat, 25 Jun 2022 15:31:33 GMT
+Date: Sat, 25 Jun 2022 15:31:33 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 70
+Content-Length: 70
+
+<
+'{brand:Volkswagen,version:Golf R,horsePower:300,productionYear:2022}'* Connection #0 to host localhost left intact
+
+=====================================================================================
+
+*   Trying ::1...
+* TCP_NODELAY set
+* Connected to localhost (::1) port 8098 (#0)
+> PUT /buckets/s16894/keys/mercedes?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 69
+>
+* upload completely sent off: 69 out of 69 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdslPk9shQomMeawM71Zp3+HLAgA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdslPk9shQomMeawM71Zp3+HLAgA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16894>; rel="up"
+Link: </buckets/s16894>; rel="up"
+< Last-Modified: Sat, 25 Jun 2022 15:51:10 GMT
+Last-Modified: Sat, 25 Jun 2022 15:51:10 GMT
+< ETag: "49WCVquuMnZMjvJIm8T6V6"
+ETag: "49WCVquuMnZMjvJIm8T6V6"
+< Date: Sat, 25 Jun 2022 15:51:10 GMT
+Date: Sat, 25 Jun 2022 15:51:10 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 69
+Content-Length: 69
+
+<
+'{brand:Mercedes,version:C63 AMG,horsePower:400,productionYear:2021}'* Connection #0 to host localhost left intact
+
+========================================================================================================
+
+*   Trying ::1...
+* TCP_NODELAY set
+* Connected to localhost (::1) port 8098 (#0)
+> PUT /buckets/s16894/keys/honda?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 64
+>
+* upload completely sent off: 64 out of 64 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvck8D2UwZTImMeawMoqu17/BlAQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvck8D2UwZTImMeawMoqu17/BlAQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16894>; rel="up"
+Link: </buckets/s16894>; rel="up"
+< Last-Modified: Sat, 25 Jun 2022 15:51:49 GMT
+Last-Modified: Sat, 25 Jun 2022 15:51:49 GMT
+< ETag: "4pua3Nj5NyQpzuPWZdHvNQ"
+ETag: "4pua3Nj5NyQpzuPWZdHvNQ"
+< Date: Sat, 25 Jun 2022 15:51:49 GMT
+Date: Sat, 25 Jun 2022 15:51:49 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 64
+Content-Length: 64
+
+<
+'{brand:Honda,version:Civic,horsePower:999,productionYear:2005}'* Connection #0 to host localhost left intact
