@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvck9DhBIZ81gZQpdp3+HLAgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16894>; rel="up"
+Last-Modified: Sat, 25 Jun 2022 15:31:33 GMT
+ETag: "65kqBLj6h2nnUyhCcV1moO"
+Date: Sat, 25 Jun 2022 15:55:12 GMT
+Content-Type: application/json
+Content-Length: 70
+
+'{brand:Volkswagen,version:Golf R,horsePower:300,productionYear:2022}'
