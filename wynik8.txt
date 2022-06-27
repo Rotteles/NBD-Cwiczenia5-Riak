@@ -1,0 +1,36 @@
+*   Trying ::1...
+* TCP_NODELAY set
+* Connected to localhost (::1) port 8098 (#0)
+> POST /buckets/s16894/keys/?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 17
+>
+* upload completely sent off: 17 out of 17 bytes
+< HTTP/1.1 201 Created
+HTTP/1.1 201 Created
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmv9FQhQomMeawM6Vu17/BlAQA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmv9FQhQomMeawM6Vu17/BlAQA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Location: /buckets/s16894/keys/RtqpfslVPhk0Xa7Qu5q9YPFG0x0
+Location: /buckets/s16894/keys/RtqpfslVPhk0Xa7Qu5q9YPFG0x0
+< Link: </buckets/s16894>; rel="up"
+Link: </buckets/s16894>; rel="up"
+< Last-Modified: Sat, 25 Jun 2022 16:35:51 GMT
+Last-Modified: Sat, 25 Jun 2022 16:35:51 GMT
+< ETag: "16MBPEOa9SYwDkOus6glQC"
+ETag: "16MBPEOa9SYwDkOus6glQC"
+< Date: Sat, 25 Jun 2022 16:35:51 GMT
+Date: Sat, 25 Jun 2022 16:35:51 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 17
+Content-Length: 17
+
+<
+'{brand:Ferrari}'* Connection #0 to host localhost left intact
