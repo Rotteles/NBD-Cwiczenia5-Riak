@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmv9FQhQomMeawM6Vu17/BlAQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16894>; rel="up"
+Last-Modified: Sat, 25 Jun 2022 16:35:51 GMT
+ETag: "16MBPEOa9SYwDkOus6glQC"
+Date: Sat, 25 Jun 2022 16:37:52 GMT
+Content-Type: application/json
+Content-Length: 17
+
+'{brand:Ferrari}'
