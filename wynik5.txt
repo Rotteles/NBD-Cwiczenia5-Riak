@@ -1,0 +1,34 @@
+*   Trying ::1...
+* TCP_NODELAY set
+* Connected to localhost (::1) port 8098 (#0)
+> PUT /buckets/s16894/keys/bmw?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 59
+>
+* upload completely sent off: 59 out of 59 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvz+gA2UwZTIkseawMH9dp3+HLAgA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvz+gA2UwZTIkseawMH9dp3+HLAgA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16894>; rel="up"
+Link: </buckets/s16894>; rel="up"
+< Last-Modified: Sat, 25 Jun 2022 16:08:17 GMT
+Last-Modified: Sat, 25 Jun 2022 16:08:17 GMT
+< ETag: "2FGQfKQoJc0BphDXTnOaOf"
+ETag: "2FGQfKQoJc0BphDXTnOaOf"
+< Date: Sat, 25 Jun 2022 16:08:17 GMT
+Date: Sat, 25 Jun 2022 16:08:17 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 59
+Content-Length: 59
+
+<
+'{brand:BMW,version:M4,horsePower:169,productionYear:2015}'* Connection #0 to host localhost left intact
