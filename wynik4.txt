@@ -1,0 +1,34 @@
+*   Trying ::1...
+* TCP_NODELAY set
+* Connected to localhost (::1) port 8098 (#0)
+> PUT /buckets/s16894/keys/mercedes?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 49
+>
+* upload completely sent off: 49 out of 49 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdslPk9shQolMeawM59dq3+HLAgA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdslPk9shQolMeawM59dq3+HLAgA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16894>; rel="up"
+Link: </buckets/s16894>; rel="up"
+< Last-Modified: Sat, 25 Jun 2022 16:03:27 GMT
+Last-Modified: Sat, 25 Jun 2022 16:03:27 GMT
+< ETag: "7L6f1d1yyLcEunUDXUmfZ6"
+ETag: "7L6f1d1yyLcEunUDXUmfZ6"
+< Date: Sat, 25 Jun 2022 16:03:27 GMT
+Date: Sat, 25 Jun 2022 16:03:27 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 49
+Content-Length: 49
+
+<
+'{brand:Mercedes,version:C63 AMG,horsePower:400}'* Connection #0 to host localhost left intact
