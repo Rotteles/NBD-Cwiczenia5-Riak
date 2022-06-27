@@ -1,0 +1,34 @@
+*   Trying ::1...
+* TCP_NODELAY set
+* Connected to localhost (::1) port 8098 (#0)
+> PUT /buckets/s16894/keys/honda?returnbody=true HTTP/1.1
+> Host: localhost:8098
+> User-Agent: curl/7.55.1
+> Accept: */*
+> Content-Type: application/json
+> Content-Length: 77
+>
+* upload completely sent off: 77 out of 77 bytes
+< HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+< X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvck8D2UwZTIlMeawMl9do3+HLAgA=
+X-Riak-Vclock: a85hYGBgzGDKBVI8tgFmdsmvck8D2UwZTIlMeawMl9do3+HLAgA=
+< Vary: Accept-Encoding
+Vary: Accept-Encoding
+< Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+< Link: </buckets/s16894>; rel="up"
+Link: </buckets/s16894>; rel="up"
+< Last-Modified: Sat, 25 Jun 2022 15:59:15 GMT
+Last-Modified: Sat, 25 Jun 2022 15:59:15 GMT
+< ETag: "2Fw4WCen2yLykPm12s05fe"
+ETag: "2Fw4WCen2yLykPm12s05fe"
+< Date: Sat, 25 Jun 2022 15:59:15 GMT
+Date: Sat, 25 Jun 2022 15:59:15 GMT
+< Content-Type: application/json
+Content-Type: application/json
+< Content-Length: 77
+Content-Length: 77
+
+<
+'{brand:Honda,version:Civic,horsePower:999,productionYear:2005,cabrio:false}'* Connection #0 to host localhost left intact
